@@ -1,0 +1,38 @@
+Problem Statement:-
+Vrinda store wants to create an annual sales report for 2022. So that, Vrinda can understand their customers and grow more sales in 2023.
+
+Sample Questions:
+
+1. Compare the sales and orders using single chart
+2. Which month got the highest sales and orders?
+3. Who purchased more men or women in 2022?
+4. What are different order status in 2022?
+5. List of top 10 states contributing to the sales?
+6. Relation between age and gender based on number of oders?
+7. Which channel is contributing to maximum sales?
+8. Highest selling category?
+etc.
+
+step 1. collect the data to get process the insights
+step 2. Data cleaning--> Avoid Null Values
+			 Check the data(replace wrong data)
+step 3. Data processing--> Add a column i.e is age group(apply if formula)
+			   Add a column of month by formula Text(value,"mmm")
+step 4. Data analysis--> solve the above given sample questions.
+			 1. go to insert--> click on pivot tablee---> press ok
+			 2. create pivot table--> remove grand total--> create chart--> format the chart accordingly
+			3. convert big values to millions by formula (0.00,,"M")
+			4. copy chart paste to other sheet with editing of no grids.
+			5. after copying all chart, we have to make slicers
+			make slicers of months, category, channels.
+Sample insights:
+1. Women are more likely to buy compared to men(~65%)
+2. Maharastra, Karnataka and Uttar Pradesh are the top 3 states(~35%)
+3. Adult age group (30-49 yrs) are contributing (~50%)
+4. Amazon, flipkart and myntra channels are max contributing(~80%)
+
+Final Conclusion to improve Vrinda store sales:
+
+1. Target Women customers of age group (30-49 yrs) living in Maharastra, Karnataka and Uttar Pradesh by showing ads/offers/ coupons available on amazon, flipkart and myntra.
+
+			
